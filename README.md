@@ -205,7 +205,7 @@ const interval = setInterval(() => {
 | Problem | Solution |
 |---------|----------|
 | API not found | Course may not use SCORM. Check the Network tab for API launch parameters. |
-| Changes don't persist | LMS may have server-side validation. Contact IT for alternatives. |
+| Changes don't persist | LMS may have server-side validation. No solution. This blocks this from working. |
 | Session terminated too quickly | Wait a few seconds after refresh before checking completion. |
 | Can't paste in console | Type `allow pasting` in console or switch browsers. |
 
