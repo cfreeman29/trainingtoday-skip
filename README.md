@@ -58,7 +58,12 @@ API.Terminate();
 
 ### Key Fields Explained
 
-| Field | Value | Purpose | |-------|-------|---------| | `cmi.progress_measure` | `1` (1.0 = 100%) | Sets learner progress to 100% | | `cmi.score.scaled` | `1` (1.0 = 100%) | Sets test score to passing (most LMS require 0.5–1.0) | | `cmi.success_status` | `"passed"` | Explicitly marks the SCO as passed | | `cmi.completion_status` | `"completed"` | Explicitly marks the SCO as completed |
+| Field | Value | Purpose |
+|-------|-------|---------|
+| `cmi.progress_measure` | `1` (1.0 = 100%) | Sets learner progress to 100% |
+| `cmi.score.scaled` | `1` (1.0 = 100%) | Sets test score to passing (most LMS require 0.5–1.0) |
+| `cmi.success_status` | `"passed"` | Explicitly marks the SCO as passed |
+| `cmi.completion_status` | `"completed"` | Explicitly marks the SCO as completed |
 
 ---
 
@@ -197,7 +202,12 @@ const interval = setInterval(() => {
 
 ### 5. __Troubleshooting__
 
-| Problem | Solution | |---------|----------| | API not found | Course may not use SCORM. Check the Network tab for API launch parameters. | | Changes don't persist | LMS may have server-side validation. Contact IT for alternatives. | | Session terminated too quickly | Wait a few seconds after refresh before checking completion. | | Can't paste in console | Type `allow pasting` in console or switch browsers. |
+| Problem | Solution |
+|---------|----------|
+| API not found | Course may not use SCORM. Check the Network tab for API launch parameters. |
+| Changes don't persist | LMS may have server-side validation. Contact IT for alternatives. |
+| Session terminated too quickly | Wait a few seconds after refresh before checking completion. |
+| Can't paste in console | Type `allow pasting` in console or switch browsers. |
 
 ---
 
